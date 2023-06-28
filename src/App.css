@@ -1,0 +1,117 @@
+.project{
+  background-color: white;
+  color: navy;
+  text-align:center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: 8px solid rgb(30, 0, 255);
+  border-radius: 2rem 0;
+  width: 80%;
+  padding: 1rem;
+  margin: 1rem;
+  font-weight: bolder;
+}
+.project:hover{
+  background-color: navy;
+  color: white;
+  transform: scale(1.08);
+}
+
+.btn:hover{
+  background-color: rgb(7, 7, 57);
+  color: white;
+  transform: scale(1.08);
+}
+.but{
+  border-radius: rounded;
+  width:25%;
+}
+
+.todo-header input{
+width: 30%;
+}
+.todo-header button
+{
+    width: 25%;
+}
+
+.movie-header input{
+  width: 30%;
+  }
+
+.total-budget{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: goldenrod;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+body{
+    background-color: black;
+  font-family: montserrat;
+}
+.navbar{
+  background-color: black;
+}
+.carousel-item img{
+  height: 35rem;
+  width: 100%;
+}
+
+  .services{
+      background-image: url();
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      height: 40rem;
+      background-size: cover;
+      padding: 15rem;
+      padding-top:20rem;
+      
+      
+   }
+  .service{
+       text-shadow: 1px ipx 1px black
+  }
+  .card-img-top{
+      height: 13rem;
+  }
+  .card{
+      margin: 1rem;
+  }
+  .registration-form{
+   width: 450px;
+   margin: 5rem auto ;
+  }
+  @media (max-width : 768px){
+    
+    .todo-header  input{
+          width: 100%;
+    margin-top: 1rem;
+
+    }
+    .movie-header  input{
+      width: 100%;
+margin-top: 1rem;
+
+}
+
+    .todo-header {
+          flex-direction: column;
+           }
+  
+           .movie-header {
+            flex-direction: column;
+             }
+      .todo-header  button{
+          width: 100%;
+    margin-top: 1rem;
+      }
+    .movie-header  button{
+      width: 100%;
+margin-top: 1rem;
+
+      }
+  }
